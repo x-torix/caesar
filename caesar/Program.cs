@@ -37,9 +37,9 @@ namespace caesar
 
             for (int i = 0; i < charLetters.Length; i++)
             {
-                int originalValue = (int) charLetters[i];
+                int originalValue = (int) charLetters[i]; //zmienia z chara na int//
 
-                if (originalValue > 96 && originalValue < 123)
+                if (originalValue > 96 && originalValue < 123) //sprawdza czy znajduje sie w zakresie//
                 {
                     int shiftValue = 0;
 
